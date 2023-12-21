@@ -1,0 +1,84 @@
+body{
+    background-color: #f8f9fa;
+}
+
+/* start navabr  */
+.shadow {
+    box-shadow: 0 -0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+ .navbar-light .navbar-nav .nav-item .nav-link
+{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+} 
+/*
+.nav-item:hover{
+    background-color: #dc3545;
+} */
+
+/* start my hero  */
+.Downlod-cv:hover .fa-file-pdf{
+color: #fff !important;
+}
+
+/* start about me  */
+.progress{
+    height: 10px;
+}
+.progress-bar{
+   height: 10px;
+}
+
+/* start what i do   */
+.shadows {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 9%) !important;
+}
+
+h1{
+    font-family:system-ui
+}
+
+/* start lastest work  */
+.images {
+    overflow: hidden;
+    height: 210px;
+    transition: all 0.5s linear;
+}
+.images img{
+    transition: all 0.5s linear;  
+}
+.images:hover img{
+transform: translateY(-650px);
+transition: all 4s linear;
+
+}
+
+.Design:hover .more{
+    display: block;
+}
+
+.see{
+    display: none;
+}
+
+.Design:hover .notsee{
+    display: none;
+
+}
+.Design:hover .see{
+    display: block;
+}
+
+.Design:hover .fa-angle-double-down{
+animation: 1s infinite alternate moredown;
+}
+@keyframes moredown {
+    from{
+        transform: translateY(-2px);
+    }
+    to{
+        transform: translateY(5px);
+    }
+
+}
